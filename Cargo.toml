@@ -1,0 +1,17 @@
+[package]
+name = "AutoSSHConnect"
+version = "0.0.1"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+expectrl = "0.7.1"
+config = "0.15.7"
+
+[build-dependencies]
+winres = "0.1.12"
+
+[package.metadata.winres]
+OriginalFilename = "AutoSSHConnect"
+LegalCopyright = "Copyright © 2025"
+
